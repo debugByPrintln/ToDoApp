@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact name="ToDoApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ToDoApp_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ToDoApp.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$USER_HOME$/Desktop/TestJARDir/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="ToDoApp" />
+      </element>
+      <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
+      <element id="library" level="project" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+      <element id="library" level="project" name="Maven: com.google.guava:guava:23.0" />
+      <element id="library" level="project" name="Maven: com.google.j2objc:j2objc-annotations:1.1" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
+      <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+      <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+      <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.0.18" />
+    </root>
+  </artifact>
+</component>

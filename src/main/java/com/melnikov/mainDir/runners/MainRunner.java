@@ -55,12 +55,16 @@ public class MainRunner {
 
         System.out.println("id");
         task.setId(scanner.nextInt());
-        System.out.println("Header");
-        task.setHeader(scanner.next());
-        System.out.println("Description");
-        task.setDescription(scanner.next());
 
-        task.setCreationDateTime(LocalDateTime.now().toString());
+        System.out.println("Header");
+        String header = scanner.next();
+        task.setHeader(header);
+
+        System.out.println("Description");
+        String description = scanner.next();
+        task.setDescription(description);
+
+        task.setCreationDateTime(LocalDateTime.now().format(DateTimeFormatter.ofPattern("hh:mm-dd-MM-yyyy")));
 
         System.out.println("To-Do Date");
         task.setToDoDateTime(scanner.next());

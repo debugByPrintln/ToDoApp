@@ -12,5 +12,7 @@ public class RSPrinter {
         System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2));
     }
 
-
+    private static void sayHello(){
+        System.out.println("Hello, worlds!");
+    }
 }
